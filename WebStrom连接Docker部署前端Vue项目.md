@@ -176,14 +176,6 @@ docker run -d -p 9535:9528 --name vue-element-admin vue-element-admin:1.0.0
 
 
 
-
-
-
-
-
-
-
-
 ### WSL2
 
 ```
@@ -196,23 +188,16 @@ wsl -l -``v
 
 
 
-```
-
-
-docker run -d -p 9536:9528 -v /D/temp/nodejs:/ --name vue-element-admin4 vue-element-admin:1.0.0
-
-/D/temp/nodejs
-
-docker run -d -p 0.0.0.0:8088:8080/tcp -p 0.0.0.0:50000:50000 -v /E/wsl/docker-volume/jenkins:/var/jenkins_home --name jenkins jenkinsci/blueocean
-————————————————
-版权声明：本文为CSDN博主「f_yunsheng_t」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/f_yunsheng_t/article/details/114146928
-```
-
-
-
 ### 参考
 
 * [WebStrom连接Docker部署前端Vue(Vue-admin-template脚手架)项目](https://blog.csdn.net/weixin_43562415/article/details/120128792)
+
 * [WebStorm控制台中文乱码解决](https://blog.csdn.net/qq_47452289/article/details/118676221)
 
+  在WebStorm菜单依次选择【Help】-》【Edit Custom VM Options...】点击会打开一个配置文件，在最下面加一行代码 
+
+  -Dfile.encoding=utf-8
+
+  再重启WebStorm就ok了
+
+ ![image-20221028100850032](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028100850032.png)
