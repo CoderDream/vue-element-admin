@@ -51,19 +51,19 @@ CMD ["nginx", "-g", "daemon off;"]
 
 我们使用Windows 11 安装的 Docker for Windows
 
- ![image-20221028085347882](assets\image-20221028085316784.png)
+ ![image-20221028085347882](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028085316784.png)
 
 * 选TCP socket，既可以选本机，也可以选远程的Linux
 
- ![image-20221028085523990](assets\image-20221028085523990.png)
+ ![image-20221028085523990](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028085523990.png)
 
 * 其他Linux机器
 
- ![image-20221028085856776](assets\image-20221028085856776.png)
+ ![image-20221028085856776](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028085856776.png)
 
 
 
- ![image-20221028091919455](assets\image-20221028085235753.png)
+ ![image-20221028091919455](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028085235753.png)
 
 
 
@@ -71,7 +71,7 @@ CMD ["nginx", "-g", "daemon off;"]
 
 打开 package.json 文件，在 scripts 代码段选择编译环境（向右箭头）表示可以运行，每个环境对应一个配置文件
 
- ![image-20221028090113453](assets\image-20221028090113453.png)
+ ![image-20221028090113453](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028090113453.png)
 
 * build过程
 
@@ -90,21 +90,21 @@ D:\03_Dev\nodejs\npm.cmd run build:prod
 Process finished with exit code 0
 ```
 
- ![image-20221028090401167](assets\image-20221028090401167.png)
+ ![image-20221028090401167](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028090401167.png)
 
 * build完成后会生成 dist 文件夹
 
- ![image-20221028090444716](assets\image-20221028090444716.png)
+ ![image-20221028090444716](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028090444716.png)
 
 ### 再 Build Docker镜像
 
 打开DockerFile文件，选择执行【Build Image for ‘DockerFile’】，这里的 DockerFile是上面Docker插件里面配置的。
 
- ![image-20221028090839152](assets\image-20221028090839152.png)
+ ![image-20221028090839152](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028090839152.png)
 
 #### 开始构建
 
- ![image-20221028092056640](assets\image-20221028091314918.png)
+ ![image-20221028092056640](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028091314918.png)
 
 #### 构建过程
 
@@ -148,11 +148,11 @@ Successfully tagged vue-element-admin:1.0.0
 
 #### 构建完成
 
- ![image-20221028092445799](assets\image-20221028092445799.png)
+ ![image-20221028092445799](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028092445799.png)
 
 #### 镜像信息
 
- ![image-20221028095704240](assets\image-20221028095704240.png)
+ ![image-20221028095704240](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028095704240.png)
 
 ### 运行镜像
 
@@ -164,15 +164,15 @@ docker run -d -p 9535:9528 --name vue-element-admin vue-element-admin:1.0.0
 
 #### 运行结果
 
- ![image-20221028095853225](assets\image-20221028095853225.png)
+ ![image-20221028095853225](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028095853225.png)
 
 #### 访问服务
 
- ![image-20221028100126643](assets\image-20221028100126643.png)
+ ![image-20221028100126643](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028100126643.png)
 
 
 
- ![image-20221028100156314](assets\image-20221028100156314.png)
+ ![image-20221028100156314](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028100156314.png)
 
 
 
@@ -192,7 +192,7 @@ wsl -l -``v
 
 
 
- ![image-20221028094526072](assets\image-20221028094526072.png)
+ ![image-20221028094526072](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028094526072.png)
 
 
 
