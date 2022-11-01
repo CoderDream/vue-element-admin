@@ -168,6 +168,12 @@ docker run -d -p 9535:9528 --name vue-element-admin vue-element-admin:1.0.0
 
 #### 访问服务
 
+```
+http://localhost:9535
+```
+
+
+
  ![image-20221028100126643](https://raw.githubusercontent.com/CoderDream/vue-element-admin/main/assets/image-20221028100126643.png)
 
 

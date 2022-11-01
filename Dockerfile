@@ -1,7 +1,7 @@
 # nginx作为基础镜像
 FROM nginx:1.20.2
 
-MAINTAINER kezhou  # 定义作者
+MAINTAINER CoderDream  # 定义作者
 
 #移除基础镜像内部的nginx的默认配置文件
 #RUN rm /etc/nginx/conf.d/default.conf
